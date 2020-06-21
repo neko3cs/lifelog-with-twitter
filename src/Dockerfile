@@ -3,10 +3,13 @@ LABEL maintainer="neko3cs"
 
 ARG ANGULAR_VERSION="latest"
 
-WORKDIR /usr/src/
+WORKDIR /usr/src
 
 RUN apk update && \
     apk upgrade && \
+    npm init --yes && \
     npm install --global @angular/cli@${ANGULAR_VERSION}
+
+VOLUME [ "/usr/src" ]
 
 EXPOSE 80

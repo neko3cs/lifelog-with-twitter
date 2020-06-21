@@ -1,0 +1,14 @@
+version: "3.1"
+
+services: 
+  app:
+    build: .
+    container_name: LifelogWithTwitter-App
+    hostname: app
+    environment: 
+      APP_NAME: "lifelog-with-twitter"
+    ports: 
+      - 8080:80
+    volumes: 
+      - $PWD:/usr/src
+    tty: true
