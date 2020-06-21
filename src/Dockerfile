@@ -1,4 +1,4 @@
-FROM node:lts-alpine AS lifelog-with-twitter
+FROM node:lts-alpine AS llwt-app
 LABEL maintainer="neko3cs"
 
 ARG ANGULAR_VERSION="latest"
@@ -12,4 +12,4 @@ RUN apk update && \
 
 VOLUME [ "/usr/src" ]
 
-EXPOSE 80
+EXPOSE 4200

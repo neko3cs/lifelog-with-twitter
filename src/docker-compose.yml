@@ -1,14 +1,12 @@
-version: "3.1"
+version: "3.8"
 
 services: 
   app:
-    build: .
-    container_name: LifelogWithTwitter-App
+    container_name: llwt-app
     hostname: app
-    environment: 
-      APP_NAME: "lifelog-with-twitter"
+    build: .
     ports: 
-      - 8080:80
+      - 4200:4200
     volumes: 
       - $PWD:/usr/src
     tty: true
