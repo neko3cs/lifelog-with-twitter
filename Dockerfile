@@ -17,6 +17,4 @@ VOLUME [ "/usr/src" ]
 
 WORKDIR /usr/src
 
-RUN npm init --yes
-
 EXPOSE 4200
