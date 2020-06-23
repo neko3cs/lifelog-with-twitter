@@ -1,5 +1,5 @@
 FROM node:lts-alpine AS llwt-app
-LABEL maintainer="neko3cs"
+LABEL maintainer="neko3cs (https://github.com/neko3cs)"
 
 ARG ANGULAR_VERSION="latest"
 
