@@ -1,7 +1,7 @@
 FROM node:lts-alpine AS llwt-app
 LABEL maintainer="neko3cs (https://github.com/neko3cs)"
 
-ARG ANGULAR_VERSION="latest"
+ARG ANGULAR_VERSION="10.0.0"
 
 WORKDIR /root
 
