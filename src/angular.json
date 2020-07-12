@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "lifelog-with-twitter"
+    }
+  },
+  "defaultProject": "lifelog-with-twitter",
+  "cli": {
+    "analytics": false
+  }
 }
