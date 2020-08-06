@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 48px;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.messages {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.message {
+    margin: 5px;
+}
+
+.twitter-login {
+    width: 500px;
+    height: 120px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border: 2px solid #707070;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter-login__button {
+    width: 300px;
+    height: 40px;
+}
