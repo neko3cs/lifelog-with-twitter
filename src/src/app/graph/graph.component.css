@@ -1,0 +1,9 @@
+.outline {
+    width: 800px;
+    height: 500px;
+    margin: 15px;
+    border: 2px solid #707070;
+    border-radius: 25px;
+
+    text-align: center;
+}
