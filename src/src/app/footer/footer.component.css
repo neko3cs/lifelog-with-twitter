@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #707070;
+}
+
+.message__created-by {
+    color: #ffffff;
+    margin: 8px;
+}
+
+.message__created-by-username {
+    color: #ffffff;
+}
