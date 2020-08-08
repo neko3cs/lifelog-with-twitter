@@ -2,9 +2,12 @@
     <div class="title">
         <h1>Lifelog with Twitter</h1>
     </div>
-    <div class="button">
-        <!-- TODO: ボタンをコンポーネント化して共通化する -->
-        <button class="button__trans button__trans--margin">HowTo</button>
-        <button class="button__trans button__trans--margin">Login</button>
-    </div>
+    <ul class="navs">
+        <li class="nav__button">
+            <a [routerLink]="['/']">HowTo</a>
+        </li>
+        <li class="nav__button">
+            <a [routerLink]="['/login']">Login</a>
+        </li>
+    </ul>
 </header>

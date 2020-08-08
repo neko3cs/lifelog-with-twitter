@@ -14,21 +14,28 @@
     margin: 10px;
 }
 
-.button {
+.navs {
     margin-right: 30px;
+    display: flex;
+    list-style: none;
 }
 
-.button__trans {
+.nav__button {
     width:120px;
     height:40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
     font-size: 20px;
     color: #ffffff;
     background: #1da1f1;
     border: 2px solid #ffffff;
     border-radius:30px;
-    text-decoration: none;
 }
 
-.button__trans--margin {
-    margin-left: 20px;
+.nav__button a {
+    margin: 0 auto;
+    color: #ffffff;
+    text-decoration: none;
 }
