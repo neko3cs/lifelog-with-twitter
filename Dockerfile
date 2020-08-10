@@ -7,7 +7,7 @@ WORKDIR /root
 
 RUN apk update && \
     apk upgrade && \
-    apk add --no-cache zsh git curl vim && \
+    apk add --no-cache zsh git curl vim chromium && \
     curl -fsSL https://raw.githubusercontent.com/neko3cs/.dotfiles/master/.zshrc > $HOME/.zshrc && \
     mkdir .zsh/ && \
     mkdir .zsh/zsh-completions/ && \
